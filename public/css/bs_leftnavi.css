@@ -208,7 +208,7 @@
     padding: 0;
     position: relative;
     background-color: #fff;
-    border-top: 1px solid #e5e5e5
+    border-top: 1px solid #e5e5e5;
 }
 .gw-nav-list>li .gw-submenu>li {
     margin-left: 0;
@@ -289,5 +289,4 @@
     text-align: center
 }
 /*=================left navibar end=========================================*/
-
 

@@ -13,7 +13,7 @@ $(document).ready(function () {
                 $('.gw-nav').find('li').find('ul:visible').slideUp();
                 return;
             }
-            if (ulDom.style.display == 'none') {
+            if (ulDom.style.display != 'block') {
                 gw_nav.find('li').find('ul:visible').slideUp();
                 gw_nav.find('li.init-arrow-up').removeClass('init-arrow-up').addClass('arrow-down');
                 gw_nav.find('li.arrow-up').removeClass('arrow-up').addClass('arrow-down');
@@ -39,3 +39,4 @@ $(document).ready(function () {
     };
     nav();
 });
+
